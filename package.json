@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.4.2",
+    "mathjs": "^5.2.3",
     "ms": "^2.1.1",
     "opusscript": "0.0.6",
     "random-puppy": "^1.1.0",
