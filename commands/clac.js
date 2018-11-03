@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args) => {
 
   let resp;
   try {
-    resp = math.eval(args.join(' ')));
+    resp = math.eval(args.join(' '));
   } catch (e) {
     return message.reply("Please input a valid equation!");
   }
