@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const math = require("mathjs");
+const math = require("math.js");
 
 module.exports.run = async (bot, message, args) => {
   if(args[0] == "help") return message.reply(`Usage: \`k.calc <math equation>\``);
@@ -7,18 +7,18 @@ module.exports.run = async (bot, message, args) => {
 
   let resp;
   try {
-    resp = math.eval(args.join(' '));
+    resp = math.eval(args.join(' ')));
   } catch (e) {
     return message.reply("Please input a valid equation!");
   }
 
-  let mathe = new Discord.RichEmbed()
+  let mathe = new Discord.MessageEmbed()
   .setColor('#0ffffff')
   .setTitle("*Calculator*")
-  .addField('Input', `\`\`\`js/n${args.join(' ')}\`\`\``)
-  .addField('Output', `\`\`\`js/n${resp}\`\`\``);
+  .addField('Input', `\`\`\`js\n${args.join(' ')}\`\`\``)
+  .addField('Output', `\`\`\`js\n${resp}\`\`\``);
 
-  message.channel.send(mathe);
+  message.channel.send(mathe)
 }
 
 module.exports.help = {
