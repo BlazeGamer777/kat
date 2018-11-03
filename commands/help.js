@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
   .setColor("#BCE8FA")
   .setDescription(`Use \`help\` after any command to get its usage!`)
   .addField("~Mod~   :tools: ", `\`kick\`, \`ban\`, \`tempmute\`, \`removerole\` ,\`addrole\``)
-  .addField("~Fun~   :tada: ", `\`8ball\`, \`cat\`, \`dog\`, \`meme\` ,\`rps\` ,\`weather\`,\`dice\` ,\`customdice\` ,\`slots\`,\`urban\` ,\`randomurban\``)
+  .addField("~Fun~   :tada: ", `\`8ball\`, \`cat\`, \`dog\`, \`meme\` ,\`rps\` ,\`weather\`,\`dice\` ,\`customdice\` ,\`slots\`,\`urban\` ,\`randomurban\` ,\`calc\``)
   .addField(`~Economy~   :money_with_wings: `, `***Under Maintenance!***
 
 \`level\`, \`coins\``)
