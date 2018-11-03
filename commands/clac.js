@@ -12,13 +12,13 @@ module.exports.run = async (bot, message, args) => {
     return message.reply("Please input a valid equation!");
   }
 
-  let mathe = new Discord.MessageEmbed()
+  let mathe = new Discord.RichEmbed()
   .setColor('#0ffffff')
   .setTitle("*Calculator*")
   .addField('Input', `\`\`\`js/n${args.join(' ')}\`\`\``)
   .addField('Output', `\`\`\`js/n${resp}\`\`\``);
 
-  message.channel.send(mathe)
+  message.channel.send(mathe);
 }
 
 module.exports.help = {
