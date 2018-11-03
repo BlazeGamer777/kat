@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const math = require("math.js");
+const math = require("mathjs");
 
 module.exports.run = async (bot, message, args) => {
   if(args[0] == "help") return message.reply(`Usage: \`k.calc <math equation>\``);
