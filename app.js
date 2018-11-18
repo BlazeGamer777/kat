@@ -7,6 +7,9 @@ let coins = require("./coins.json");
 let xp = require("./xp.json");
 let level = require("./xp.json");
 let token = process.env.token;
+const Discordbots = require("discordbotslist.com");
+
+Discordbots.postServerCount("6fd10d-58d7c2-cbc09c-2aee33-9a5fab", bot.guilds.size);
 
 fs.readdir("./commands/", (err, files) => {
   if(err) console.log(err);
