@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
   let imgId = args[1]
   
   message.channel.send('<a:' + name + ':' + imgId '>');
-}
+};
 
 module.exports.help = {
   name: "emote"
