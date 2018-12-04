@@ -4,7 +4,7 @@ module.exports.run = async (bot, message, args) => {
   let name = args[0]
   let imgId = args[1]
   
-  message.channel.send('<' + name + ':' + imgId + '>');
+  message.channel.send('<:' + name + ':' + imgId + '>');
 };
 
 module.exports.help = {
