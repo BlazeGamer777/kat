@@ -1,10 +1,9 @@
 const Discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
-  let name = args[0]
-  let imgId = args[1]
+  let id = args[0]
   
-  message.channel.send('<:' + name + ':' + imgId + '>');
+  message.channel.send('<:baaa:' + id + '>');
 };
 
 module.exports.help = {
