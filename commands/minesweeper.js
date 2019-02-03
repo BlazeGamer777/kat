@@ -83,10 +83,8 @@ const minesweeper = (width = 9, height = 9, bombs = 10) => {
     else return text
   }
 }
-};
-
 module.exports = { minesweeper }
-
+};
 
 module.exports.help = {
   name: "minesweeper"
